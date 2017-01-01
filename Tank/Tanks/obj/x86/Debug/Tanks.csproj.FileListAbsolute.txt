@@ -1,0 +1,29 @@
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\bin\Debug\Tanks.exe
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\bin\Debug\Tanks.pdb
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.exe
+c:\users\glatskevich\documents\visual studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.pdb
+C:\Users\glatskevich\Documents\Visual Studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.csprojResolveAssemblyReference.cache
+C:\Users\glatskevich\Documents\Visual Studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+C:\Users\glatskevich\Documents\Visual Studio 2010\Projects\Tanks\Tanks\obj\x86\Debug\Tanks.View.resources
+C:\Users\Пользователь\Desktop\111\Tanks\Tanks\obj\x86\Debug\Tanks.exe
+C:\Users\Пользователь\Desktop\111\Tanks\Tanks\obj\x86\Debug\Tanks.pdb
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.exe
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.pdb
+E:\Программирование\программы C#\Tanks\Tanks\bin\Debug\Tanks.exe
+E:\Программирование\программы C#\Tanks\Tanks\bin\Debug\Tanks.pdb
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.csprojResolveAssemblyReference.cache
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.View.resources
+E:\Программирование\программы C#\Tanks\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.exe
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.pdb
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.csprojResolveAssemblyReference.cache
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.View.resources
+E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache
+E:\Программирование\программы C#\Tanks\Tank\Tanks\bin\Debug\Tanks.exe
+E:\Программирование\программы C#\Tanks\Tank\Tanks\bin\Debug\Tanks.pdb
