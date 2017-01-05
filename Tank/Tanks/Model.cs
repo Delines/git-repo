@@ -19,6 +19,13 @@ namespace Tanks
         {
             get { return tanks; }
         }
+
+        List<Apple> apples;
+
+        internal List<Apple> Apples
+        {
+            get { return apples; }
+        }
         public Wall wall;
 
         public GameStatus gamestatus;
@@ -28,15 +35,40 @@ namespace Tanks
         {
             r = new Random();
             tanks = new List<Tank> ();
+            apples = new List<Apple>();
+
             this.sizeField = sizeField;
             this.amountTanks = amountTanks;
             this.amountApples = amountApples;
             this.speedGame = speedGame;
 
             CreateTanks ();
+            CreateApples();
+
             wall = new Wall();
 
             gamestatus = GameStatus.stoping;
+        }
+
+        private void CreateApples()
+        {
+            int x, y;
+            while (apples.Count < amountApples)
+            {
+                x = r.Next(6) * 40;
+                y = r.Next(6) * 40;
+                bool flag = true;
+
+                foreach (Apple a in apples)
+                    if (a.X == x && a.Y == y)
+                    {
+                        flag = false;
+                        break;
+                    }
+
+                if (flag)
+                    apples.Add(new Apple(x-1, y-2));
+            }
         }
 
         private void CreateTanks()
@@ -44,8 +76,8 @@ namespace Tanks
             int x, y;
             while(tanks.Count < amountTanks)
             {
-                x = r.Next(6) * 40;
-                y = r.Next(6) * 40;
+                x = r.Next(7) * 40;
+                y = r.Next(7) * 40;
                 bool flag = true;
 
                 foreach (Tank t in tanks)
