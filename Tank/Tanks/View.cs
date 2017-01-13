@@ -24,13 +24,21 @@ namespace Tanks
         void Draw(PaintEventArgs e)
         {
             DrawWall(e);
+            DrawApple(e);
             DrawTank(e);
+            
 
             if (model.gamestatus != GameStatus.playing)
                 return;
             
             Thread.Sleep(model.speedGame);
             Invalidate();
+        }
+
+        private void DrawApple(PaintEventArgs e)
+        {
+            foreach(Apple a in model.Apples)
+                e.Graphics.DrawImage(a.Img, new Point (a.X, a.Y));
         }
 
         private void DrawTank(PaintEventArgs e)

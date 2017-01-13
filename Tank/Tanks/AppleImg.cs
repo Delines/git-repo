@@ -6,19 +6,13 @@ using System.Drawing;
 
 namespace Tanks
 {
-    class Wall: IPicture
+    class AppleImg
     {
-        WallImg wallImg = new WallImg();
-        Image img;
+        Image img = Properties.Resources.Apple;
 
         public Image Img
         {
             get { return img; }
-        }
-
-        public Wall() 
-        {
-            img = wallImg.Img;
         }
     }
 }

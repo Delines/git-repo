@@ -27,3 +27,12 @@ E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x
 E:\Программирование\программы C#\Tanks\Tank\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache
 E:\Программирование\программы C#\Tanks\Tank\Tanks\bin\Debug\Tanks.exe
 E:\Программирование\программы C#\Tanks\Tank\Tanks\bin\Debug\Tanks.pdb
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.exe
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.pdb
+D:\git-repo\Tank\Tanks\bin\Debug\Tanks.exe
+D:\git-repo\Tank\Tanks\bin\Debug\Tanks.pdb
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.csprojResolveAssemblyReference.cache
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.Controller_MainForm.resources
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.Properties.Resources.resources
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.View.resources
+D:\git-repo\Tank\Tanks\obj\x86\Debug\Tanks.csproj.GenerateResource.Cache

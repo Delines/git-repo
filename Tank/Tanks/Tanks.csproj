@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apple.cs" />
+    <Compile Include="AppleImg.cs" />
     <Compile Include="Controller_MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,12 +55,14 @@
       <DependentUpon>Controller_MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="GameStatus.cs" />
-    <Compile Include="ICollision.cs" />
+    <Compile Include="ICurrentPicture.cs" />
+    <Compile Include="IPicture.cs" />
     <Compile Include="IRun.cs" />
-    <Compile Include="ITakeApple.cs" />
     <Compile Include="ITransparent.cs" />
     <Compile Include="ITurn.cs" />
     <Compile Include="Model.cs" />
+    <Compile Include="Packman.cs" />
+    <Compile Include="PackmanImg.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -68,6 +72,7 @@
     </Compile>
     <Compile Include="Tank.cs" />
     <Compile Include="TankImg.cs" />
+    <Compile Include="ITurnAround.cs" />
     <Compile Include="View.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -87,6 +92,7 @@
     <EmbeddedResource Include="View.resx">
       <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -104,6 +110,27 @@
     <None Include="Resources\Wall.bmp" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\Apple.png" />
+    <Content Include="Resources\PacmenCaterpilars\Down\PacmenImg01.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Down\PacmenImg01l.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Down\PacmenImg01ll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Down\PacmenImg01lll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Down\PacmenImg01lV.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Left\PacmenImg_10.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Left\PacmenImg_10l.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Left\PacmenImg_10ll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Left\PacmenImg_10lll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Left\PacmenImg_10lV.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Right\PacmenImg10.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Right\PacmenImg10l.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Right\PacmenImg10ll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Right\PacmenImg10lll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Right\PacmenImg10lV.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Up\PacmenImg0_1.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Up\PacmenImg0_1l.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Up\PacmenImg0_1ll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Up\PacmenImg0_1lll.bmp" />
+    <Content Include="Resources\PacmenCaterpilars\Up\PacmenImg0_1lV.bmp" />
     <Content Include="Resources\TankCaterpilars\Down\TankImg01.bmp" />
     <Content Include="Resources\TankCaterpilars\Down\TankImg01l.bmp" />
     <Content Include="Resources\TankCaterpilars\Down\TankImg01ll.bmp" />

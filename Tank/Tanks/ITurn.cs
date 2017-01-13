@@ -7,6 +7,6 @@ namespace Tanks
 {
     interface ITurn
     {
-        void Turn();
+        void Turn();      
     }
 }

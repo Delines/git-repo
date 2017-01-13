@@ -6,16 +6,15 @@ using System.Drawing;
 
 namespace Tanks
 {
-    class Tank: IRun, ITurn, ITurnAround, ITransparent
+    class Packman: IRun, ITurn, ITransparent
     {
-        TankImg tankImg = new TankImg();
-        Image [] img;
+        PackmanImg packmanImg = new PackmanImg();
+        Image[] img;
         Image curentImg;
 
         public Image CurentImg
         {
             get { return curentImg; }
-            
         }
 
         int sizeField;
@@ -44,34 +43,16 @@ namespace Tanks
             }
         }
 
-        public Tank(int sizeField, int x, int y) 
+        public Packman(int sizeField) 
         {
-            this.sizeField = sizeField;
-            r = new Random();
-
-            if (r.Next(5000) < 2500)
-            {
-                Direct_y = 0;
-            loop:
-                Direct_x = r.Next(-1, 2);
-                if (Direct_x == 0)
-                    goto loop;
-            }
-            else
-            {
-                Direct_x = 0;
-            loop:
-                Direct_y = r.Next(-1, 2);
-                if (Direct_y == 0)
-                    goto loop;
-            }              
+            this.sizeField = sizeField;                       
 
             PutImg();
 
             PutCurentImg();
 
-            this.x = x;
-            this.y = y;
+            this.x = 120;
+            this.y = 220;
         }
 
         public int Y
@@ -84,15 +65,12 @@ namespace Tanks
             get { return x; }
         }
 
-        
-
-        
         public void Run()
         {
             x += direct_x;
             y += direct_y;
             if (Math.IEEERemainder(x, 40) == 0 && Math.IEEERemainder(y, 40) == 0)
-               Turn();
+                Turn();
             PutCurentImg();
 
             Transparent();
@@ -108,28 +86,11 @@ namespace Tanks
                 k = 0;
         }
 
-        public void Turn() 
+        public void Turn()
         {
-                if (r.Next(5000) < 2500) //двигаемся по вертикали
-                {
-                    if (Direct_y == 0)
-                    {
-                        direct_x = 0;
-                        while (Direct_y == 0)
-                            Direct_y = r.Next(-1, 2);
-                    }
-                }
-                else //двигаемся по горизонтали
-                {
-                    if (Direct_x == 0)
-                    {
-                        direct_y = 0;
-                        while (Direct_x == 0)
-                            Direct_x = r.Next(-1, 2);
-                    }
-                }
+            //!!!!!          
 
-                PutImg();
+            PutImg();
         }
 
         public void Transparent()
@@ -148,20 +109,14 @@ namespace Tanks
         void PutImg()
         {
             if (direct_x == 1)
-                img = tankImg.Right;
+                img = packmanImg.Right;
             if (direct_x == -1)
-                img = tankImg.Left;
+                img = packmanImg.Left;
             if (direct_y == 1)
-                img = tankImg.Down;
+                img = packmanImg.Down;
             if (direct_y == -1)
-                img = tankImg.Up;
+                img = packmanImg.Up;
         }
 
-        public void TurnAround()
-        {
-            Direct_x = -1 * Direct_x;
-            Direct_y = -1 * Direct_y;
-            PutImg();
-        }
     }
 }

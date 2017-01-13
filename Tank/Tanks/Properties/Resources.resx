@@ -184,4 +184,67 @@
   <data name="Wall" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Wall.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Down\PacmenImg01.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg01l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Down\PacmenImg01l.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg01ll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Down\PacmenImg01ll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg01lll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Down\PacmenImg01lll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg01lV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Down\PacmenImg01lV.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg0_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Up\PacmenImg0_1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg0_1l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Up\PacmenImg0_1l.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg0_1ll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Up\PacmenImg0_1ll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg0_1lll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Up\PacmenImg0_1lll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg0_1lV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Up\PacmenImg0_1lV.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Right\PacmenImg10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg10l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Right\PacmenImg10l.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg10ll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Right\PacmenImg10ll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg10lll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Right\PacmenImg10lll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg10lV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Right\PacmenImg10lV.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Left\PacmenImg_10.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg_10l" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Left\PacmenImg_10l.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg_10ll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Left\PacmenImg_10ll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg_10lll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Left\PacmenImg_10lll.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PacmenImg_10lV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PacmenCaterpilars\Left\PacmenImg_10lV.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

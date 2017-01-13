@@ -6,13 +6,11 @@ using System.Drawing;
 
 namespace Tanks
 {
-    class WallImg
+    interface ICurrentPicture
     {
-        Image img = Properties.Resources.Wall;
-
-        public Image Img
+         Image CurentImg
         {
-            get { return img; }
+            get;
         }
     }
 }

@@ -5,7 +5,8 @@ using System.Text;
 
 namespace Tanks
 {
-    interface ICollision
+    interface ITurnAround
     {
+        void TurnAround();
     }
 }
